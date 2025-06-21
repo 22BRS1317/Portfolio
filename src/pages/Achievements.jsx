@@ -53,7 +53,7 @@ const achievements = [
   },
   {
     title:"Mathematics Hackathon",
-    image:"/certs/mathematics.jpeg",
+    image:"/certs/Mathematics_Hackathon.jpeg",
     issuer:"Mathematics Club - VIT Chennai",
   },
   {
