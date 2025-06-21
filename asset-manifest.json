@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/your-repo-name/static/css/main.b92b74b8.css",
+    "main.js": "/your-repo-name/static/js/main.c4973d62.js",
+    "static/media/Chakri_Resume.pdf": "/your-repo-name/static/media/Chakri_Resume.52fa3a61410864a878a2.pdf",
+    "index.html": "/your-repo-name/index.html",
+    "main.b92b74b8.css.map": "/your-repo-name/static/css/main.b92b74b8.css.map",
+    "main.c4973d62.js.map": "/your-repo-name/static/js/main.c4973d62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b92b74b8.css",
+    "static/js/main.c4973d62.js"
+  ]
+}
