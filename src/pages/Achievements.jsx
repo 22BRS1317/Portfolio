@@ -4,7 +4,7 @@ import { useState } from "react";
 const achievements = [
   {
     title: "AI-900 Azure Fundamentals",
-    image: `${process.env.PUBLIC_URL}/certs/ai-900.jpg`,
+    image: `${process.env.PUBLIC_URL}/certs/Ai-900.jpg`,
     issuer: "Microsoft",
   },
   {
@@ -44,12 +44,12 @@ const achievements = [
   },
   {
     title: "Wild Life Ecology",
-    image: `${process.env.PUBLIC_URL}/certs/wild.jpg`,
+    image: `${process.env.PUBLIC_URL}/certs/Wild.jpg`,
     issuer: "NPTEL (Swayam)",
   },
   {
     title: "Hacker's Horizon",
-    image: `${process.env.PUBLIC_URL}/certs/hackers-horizon.jpg`,
+    image: `${process.env.PUBLIC_URL}/certs/hackers_horizon.jpg`,
     issuer: "Linux Club - VIT Chennai",
   },
   {
@@ -119,7 +119,7 @@ const Achievements = () => {
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.8 }}
-              onClick={(e) => e.stopPropagation()} // prevent close on inner click
+              onClick={(e) => e.stopPropagation()}
             >
               <button
                 onClick={() => setSelected(null)}
