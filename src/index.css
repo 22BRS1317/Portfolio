@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-text font-sans;
+  cursor:none;
+}
+.custom-cursor {
+  pointer-events: none;
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background: rgba(56, 189, 248, 0.9); /* sky-400 glow */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.6);
+  mix-blend-mode: difference;
+}
