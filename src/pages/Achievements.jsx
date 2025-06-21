@@ -4,7 +4,7 @@ import { useState } from "react";
 const achievements = [
   {
     title: "AI-900 Azure Fundamentals",
-    image: `${process.env.PUBLIC_URL}/certs/Ai-900.jpg`,
+    image: `${process.env.PUBLIC_URL}/certs/ai-900.jpg`,
     issuer: "Microsoft",
   },
   {
@@ -18,55 +18,55 @@ const achievements = [
     issuer: "Microsoft",
   },
   {
-    title:"Leetcode Oct-2024 Badge",
-    image:`${process.env.PUBLIC_URL}/certs/2024-10.gif`,
-    issuer:"Leetcode",    
+    title: "Leetcode Oct-2024 Badge",
+    image: `${process.env.PUBLIC_URL}/certs/2024-10.gif`,
+    issuer: "Leetcode",
   },
   {
-    title:"Leetcode Nov-2024 Badge",
-    image:`${process.env.PUBLIC_URL}/certs/2024-11.gif`,
-    issuer:"Leetcode",    
+    title: "Leetcode Nov-2024 Badge",
+    image: `${process.env.PUBLIC_URL}/certs/2024-11.gif`,
+    issuer: "Leetcode",
   },
   {
-    title:"Leetcode Dec-2024 Badge",
-    image:`${process.env.PUBLIC_URL}/certs/2024-12.gif`,
-    issuer:"Leetcode",    
+    title: "Leetcode Dec-2024 Badge",
+    image: `${process.env.PUBLIC_URL}/certs/2024-12.gif`,
+    issuer: "Leetcode",
   },
   {
-    title:"Leetcode 50-Days Badge",
-    image:`${process.env.PUBLIC_URL}/certs/2024-50.gif`,
-    issuer:"Leetcode",    
-  },{
-    title:"Leetcode 100-Days Badge",
-    image:`${process.env.PUBLIC_URL}/certs/2024-100-new.gif`,
-    issuer:"Leetcode",    
+    title: "Leetcode 50-Days Badge",
+    image: `${process.env.PUBLIC_URL}/certs/2024-50.gif`,
+    issuer: "Leetcode",
   },
   {
-    title:"Wild Life Ecology",
-    image:`${process.env.PUBLIC_URL}/certs/Wild.jpg`,
-    issuer:"Nptel(Swayam)",
+    title: "Leetcode 100-Days Badge",
+    image: `${process.env.PUBLIC_URL}/certs/2024-100-new.gif`,
+    issuer: "Leetcode",
   },
   {
-    title:"Hacker's Horizon",
-    image:`${process.env.PUBLIC_URL}/certs/Hacker's Horizon.jpeg`,
-    issuer:"Linux Club - VIT Chennai",
+    title: "Wild Life Ecology",
+    image: `${process.env.PUBLIC_URL}/certs/wild.jpg`,
+    issuer: "NPTEL (Swayam)",
   },
   {
-    title:"Mathematics Hackathon",
-    image:`${process.env.PUBLIC_URL}/certs/Mathematics_Hackathon.jpeg`,
-    issuer:"Mathematics Club - VIT Chennai",
+    title: "Hacker's Horizon",
+    image: `${process.env.PUBLIC_URL}/certs/hackers-horizon.jpg`,
+    issuer: "Linux Club - VIT Chennai",
   },
   {
-    title:"Brains & Bots: The Human-AI Collaboration",
-    image:`${process.env.PUBLIC_URL}/certs/Brains_and_bots.jpeg`,
-    issuer:"SCOPE - VIT Chennai",
+    title: "Mathematics Hackathon",
+    image: `${process.env.PUBLIC_URL}/certs/mathematics-hackathon.jpg`,
+    issuer: "Mathematics Club - VIT Chennai",
   },
   {
-    title:"Technical Treasure Hunt",
-    image:`${process.env.PUBLIC_URL}/certs/Tech_Treasur_Hunt.jpeg`,
-    issuer:"SCOPE - VIT Chennai",
+    title: "Brains & Bots: The Human-AI Collaboration",
+    image: `${process.env.PUBLIC_URL}/certs/brains-and-bots.jpg`,
+    issuer: "SCOPE - VIT Chennai",
   },
-
+  {
+    title: "Technical Treasure Hunt",
+    image: `${process.env.PUBLIC_URL}/certs/technical-treasure-hunt.jpg`,
+    issuer: "SCOPE - VIT Chennai",
+  },
 ];
 
 const Achievements = () => {
@@ -90,7 +90,11 @@ const Achievements = () => {
             onClick={() => setSelected(item)}
             className="cursor-pointer relative group rounded-xl overflow-hidden shadow-lg border border-blue-500 bg-white/10 backdrop-blur-lg"
           >
-            <img src={item.image} alt={item.title} className="w-full h-[200px] object-contain p-4 group-hover:scale-105 transition-transform duration-300"/>
+            <img
+              src={item.image}
+              alt={item.title}
+              className="w-full h-[200px] object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+            />
 
             <div className="absolute inset-0 flex flex-col justify-end p-4 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <h2 className="text-lg font-semibold">{item.title}</h2>
@@ -123,7 +127,11 @@ const Achievements = () => {
               >
                 ✕
               </button>
-              <img src={selected.image} alt={selected.title} className="w-full max-h-[80vh] object-contain" />
+              <img
+                src={selected.image}
+                alt={selected.title}
+                className="w-full max-h-[80vh] object-contain"
+              />
               <div className="p-4 text-black text-center">
                 <h3 className="text-xl font-bold">{selected.title}</h3>
                 <p className="text-sm text-gray-600">{selected.issuer}</p>

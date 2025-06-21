@@ -77,20 +77,20 @@ const Home = () => {
         <p className="text-slate-300 text-lg mt-4">
           Pursuing my B.Tech degree in Computer Science with a focus on AI and Robotics at VIT Chennai.
         </p>
-        <div className="mt-10 bg-white/10 backdrop-blur-lg p-6 rounded-xl shadow-lg text-base leading-relaxed text-slate-100 max-w-4xl">
-  <p>
-    I’m a Computer Science student at VIT Chennai, specializing in Artificial Intelligence and Robotics (CGPA: 8.9/10), with hands-on experience in full-stack development, autonomous systems, and AI-powered applications.
-  </p>
-  <p>
-    I’ve built drone simulations using ROS, smart IoT lockers with real-time alerts, and scalable web apps using the MERN stack. My tech stack includes Java, Python, C/C++, React, Node.js, MongoDB, TensorFlow, and ROS.
-  </p>
-  <p>
-    Passionate about solving real-world problems through technology, I aim to build intelligent, impactful solutions that improve lives and drive innovation.
-  </p>
-</div>
 
-        <p className="text-slate-400">
-          
+        <div className="mt-10 bg-white/10 backdrop-blur-lg p-6 rounded-xl shadow-lg text-base leading-relaxed text-slate-100 max-w-4xl">
+          <p>
+            I’m a Computer Science student at VIT Chennai, specializing in Artificial Intelligence and Robotics (CGPA: 8.9/10), with hands-on experience in full-stack development, autonomous systems, and AI-powered applications.
+          </p>
+          <p>
+            I’ve built drone simulations using ROS, smart IoT lockers with real-time alerts, and scalable web apps using the MERN stack. My tech stack includes Java, Python, C/C++, React, Node.js, MongoDB, TensorFlow, and ROS.
+          </p>
+          <p>
+            Passionate about solving real-world problems through technology, I aim to build intelligent, impactful solutions that improve lives and drive innovation.
+          </p>
+        </div>
+
+        <p className="text-slate-400 mt-4">
           Intern @ <span className="text-blue-400 font-semibold">Microsoft Azure (AI-900)</span> (2024), MERN Dev @ <span className="text-blue-400 font-semibold">Ethnus</span> (2024) <br />
           Worked on drone simulations, chatbot dev, smart lockers & Ecommerce Website.
         </p>
@@ -114,13 +114,12 @@ const Home = () => {
         transition={{ duration: 1 }}
       >
         <img
-          src="/images/photo1.jpg"
+          src={`${process.env.PUBLIC_URL}/images/photo1.jpg`}
           alt="Chakri"
           className="w-full h-full object-cover"
         />
       </motion.div>
     </div>
-    
   );
 };
 
