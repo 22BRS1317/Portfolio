@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 // Rotating photos
 const photoList = [
-"/images/photo1.jpg",
-  "/images/photo2.jpg",
-  "/images/photo3.jpg",
+  `${process.env.PUBLIC_URL}/images/photo1.jpg`,
+  `${process.env.PUBLIC_URL}/images/photo2.jpg`,
+  `${process.env.PUBLIC_URL}/images/photo3.jpg`,
 ];
 
 // Education cards
@@ -14,21 +14,21 @@ const education = [
     title: "B.Tech - Computer Science & Engineering",
     place: "VIT Chennai",
     period: "2022 – 2026",
-    logo: "/logos/vit.png",
+    logo: `${process.env.PUBLIC_URL}/logos/vit.png`,
     desc: "Specialized in AI & Robotics with a CGPA of 8.86/10.",
   },
   {
     title: "Intermediate - MPC",
     place: "Tirulama Junior Kalsala",
     period:"2020 - 2022",
-    logo: "/logos/tjk.png",
+    logo: `${process.env.PUBLIC_URL}/logos/tjk.png`,
     desc: "Scored 83.6% in MPC"
   },
   {
     title: "SSC - Secondary School Certificate",
     place: "Tirulama EM High School",
     period: "2019 - 2020",
-    logo: "/logos/tjk.png",
+    logo: `${process.env.PUBLIC_URL}/logos/tjk.png`,
     desc: "Scored 10/10 CGPA in SSC",
   }
 ];
@@ -40,7 +40,7 @@ const experience = [
     role: "Tech Lead Intern",
     place: "Viswam.AI (joint initiative by Swecha & IIITH)",
     period: "May 2025 - ongoing",
-    logo: "/logos/Viswam.jpeg",
+    logo: `${process.env.PUBLIC_URL}/logos/Viswam.jpeg`,
     desc: "Part of Free Software Movement of India",
   },
   {
@@ -48,7 +48,7 @@ const experience = [
     role: "Intern",
     place: "Microsoft Azure – EtrainIndia",
     period: "June 2024 – Aug 2024",
-    logo: "/logos/azure.jpg",
+    logo: `${process.env.PUBLIC_URL}/logos/azure.jpg`,
     desc: "Worked on intelligent solutions and Azure fundamentals.",
   },
   {
@@ -56,7 +56,7 @@ const experience = [
     role: "Intern",
     place: "Ethnus",
     period: "June 2024 - July 2024",
-    logo: "/logos/Ethnus.png",
+    logo: `${process.env.PUBLIC_URL}/logos/Ethnus.png`,
     desc: "Built full-stack web apps using MongoDB, Express, React, and Node.",
   },
   
@@ -117,7 +117,7 @@ const About = () => {
  >
     <h3 className="text-xl font-semibold text-blue-400 mb-4 text-center">Bio</h3>
     <p>
-      I’m <span className="text-blue-300 font-semibold">Chakri Thotakura</span>, a Computer Science student at <strong>VIT Chennai</strong>, specializing in <strong>Artificial Intelligence and Robotics</strong>, with a <strong>CGPA of 8.9/10</strong>.
+      I'm <span className="text-blue-300 font-semibold">Chakri Thotakura</span>, a Computer Science student at <strong>VIT Chennai</strong>, specializing in <strong>Artificial Intelligence and Robotics</strong>, with a <strong>CGPA of 8.9/10</strong>.
     </p>
     <br />
     <p>
@@ -125,7 +125,7 @@ const About = () => {
     </p>
     <br />
     <p>
-      I’ve engineered drone simulations (ROS, Gazebo), smart IoT lockers with real-time alerts, AI-powered chatbots, and scalable full-stack web platforms (MERN).
+      I've engineered drone simulations (ROS, Gazebo), smart IoT lockers with real-time alerts, AI-powered chatbots, and scalable full-stack web platforms (MERN).
     </p>
     <br />
     <p>
@@ -133,7 +133,7 @@ const About = () => {
     </p>
     <br />
     <p>
-      I thrive on solving real-world problems—whether it’s healthcare AI, distributed computing, or smart automation—and I enjoy collaborating in agile teams to deliver impactful solutions.
+      I thrive on solving real-world problems—whether it's healthcare AI, distributed computing, or smart automation—and I enjoy collaborating in agile teams to deliver impactful solutions.
     </p>
   </motion.div>
 </div>

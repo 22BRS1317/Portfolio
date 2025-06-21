@@ -4,66 +4,66 @@ import { useState } from "react";
 const achievements = [
   {
     title: "AI-900 Azure Fundamentals",
-    image: "/certs/Ai-900.jpg",
+    image: `${process.env.PUBLIC_URL}/certs/Ai-900.jpg`,
     issuer: "Microsoft",
   },
   {
     title: "MERN Stack Internship",
-    image: "/certs/mern.jpg",
+    image: `${process.env.PUBLIC_URL}/certs/mern.jpg`,
     issuer: "Ethnus",
   },
   {
     title: "Azure AI Fundamentals Badge",
-    image: "/certs/micro-badge.jpg",
+    image: `${process.env.PUBLIC_URL}/certs/micro-badge.jpg`,
     issuer: "Microsoft",
   },
   {
     title:"Leetcode Oct-2024 Badge",
-    image:"/certs/2024-10.gif",
+    image:`${process.env.PUBLIC_URL}/certs/2024-10.gif`,
     issuer:"Leetcode",    
   },
   {
     title:"Leetcode Nov-2024 Badge",
-    image:"/certs/2024-11.gif",
+    image:`${process.env.PUBLIC_URL}/certs/2024-11.gif`,
     issuer:"Leetcode",    
   },
   {
     title:"Leetcode Dec-2024 Badge",
-    image:"/certs/2024-12.gif",
+    image:`${process.env.PUBLIC_URL}/certs/2024-12.gif`,
     issuer:"Leetcode",    
   },
   {
     title:"Leetcode 50-Days Badge",
-    image:"/certs/2024-50.gif",
+    image:`${process.env.PUBLIC_URL}/certs/2024-50.gif`,
     issuer:"Leetcode",    
   },{
     title:"Leetcode 100-Days Badge",
-    image:"/certs/2024-100-new.gif",
+    image:`${process.env.PUBLIC_URL}/certs/2024-100-new.gif`,
     issuer:"Leetcode",    
   },
   {
     title:"Wild Life Ecology",
-    image:"/certs/Wild.jpg",
+    image:`${process.env.PUBLIC_URL}/certs/Wild.jpg`,
     issuer:"Nptel(Swayam)",
   },
   {
     title:"Hacker's Horizon",
-    image:"/certs/Hacker's Horizon.jpeg",
+    image:`${process.env.PUBLIC_URL}/certs/Hacker's Horizon.jpeg`,
     issuer:"Linux Club - VIT Chennai",
   },
   {
     title:"Mathematics Hackathon",
-    image:"/certs/Mathematics_Hackathon.jpeg",
+    image:`${process.env.PUBLIC_URL}/certs/Mathematics_Hackathon.jpeg`,
     issuer:"Mathematics Club - VIT Chennai",
   },
   {
     title:"Brains & Bots: The Human-AI Collaboration",
-    image:"/certs/Brains_and_bots.jpeg",
+    image:`${process.env.PUBLIC_URL}/certs/Brains_and_bots.jpeg`,
     issuer:"SCOPE - VIT Chennai",
   },
   {
     title:"Technical Treasure Hunt",
-    image:"/certs/Tech_Treasur_Hunt.jpeg",
+    image:`${process.env.PUBLIC_URL}/certs/Tech_Treasur_Hunt.jpeg`,
     issuer:"SCOPE - VIT Chennai",
   },
 
