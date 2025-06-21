@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 
 import Navbar from './components/Navbar';
@@ -31,22 +31,21 @@ function App() {
   }, []);
 
   return (
-    <Router>
-  <Navbar />
-  <div className="pr-[280px]"> {/* Push content away from navbar */}
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/about" element={<About/>}/>
-      <Route path="/skills" element={<Skills />} />
-      <Route path="/experience" element={<Experience />} />
-      <Route path="/resume" element={<Resume />} />
-      <Route path="/achievements" element={<Achievements/>}/>
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
-  </div>
-</Router>
-
+    <>
+      <Navbar />
+      <div className="pr-[280px]">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </>
   );
 }
 
