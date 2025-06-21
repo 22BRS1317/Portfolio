@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { FaRocket, FaBlog, FaPaintBrush } from "react-icons/fa";
+import { FaPaintBrush } from "react-icons/fa";
 
 // 👤 Role rotation list
 const roles = [
@@ -16,10 +16,10 @@ const bgStyles = {
   dark: "bg-gradient-to-br from-black via-slate-900 to-gray-950",
   teal: "bg-gradient-to-br from-teal-900 via-cyan-900 to-blue-950",
   indigo_dusk: "bg-gradient-to-br from-indigo-900 via-sky-900 to-slate-950",
-  midnight_plum:"bg-gradient-to-br from-indigo-950 via-purple-900 to-fuchsia-950",
+  midnight_plum: "bg-gradient-to-br from-indigo-950 via-purple-900 to-fuchsia-950",
   violet: "bg-gradient-to-br from-purple-900 via-fuchsia-900 to-black",
-  dusky_orchid:"bg-gradient-to-br from-fuchsia-950 via-violet-900 to-gray-950",
-  obsidian_flame:"bg-gradient-to-br from-red-950 via-rose-900 to-black",
+  dusky_orchid: "bg-gradient-to-br from-fuchsia-950 via-violet-900 to-gray-950",
+  obsidian_flame: "bg-gradient-to-br from-red-950 via-rose-900 to-black",
   deep_forest: "bg-gradient-to-br from-green-950 via-emerald-900 to-lime-950"
 };
 
@@ -108,7 +108,7 @@ const Home = () => {
 
       {/* Right Side: Profile Image */}
       <motion.div
-        className="w-80 h-85 mt-10 md:mt-0 md:ml-10 rounded-full border-4 border-blue-500 shadow-2xl overflow-hidden"
+        className="w-80 h-[340px] mt-10 md:mt-0 md:ml-10 rounded-full border-4 border-blue-500 shadow-2xl overflow-hidden"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
