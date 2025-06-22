@@ -33,7 +33,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="pr-[280px]">
+      <div className="pt-20 md:pt-0 md:pl-[260px] transition-all duration-300">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />

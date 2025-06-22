@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
-  FaHome, FaUser, FaAward, FaGift, FaProjectDiagram,
+  FaHome, FaUser, FaAward, FaProjectDiagram,
   FaCode, FaChartLine, FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaBars, FaTimes,
 } from "react-icons/fa";
 
@@ -18,7 +18,7 @@ const navItems = [
 
 const socialIcons = [
   { icon: <FaFacebook />, link: "https://www.facebook.com/profile.php?id=100072242708076" },
-  { icon: <FaGithub/>, link: "https://github.com/22BRS1317"},
+  { icon: <FaGithub />, link: "https://github.com/22BRS1317" },
   { icon: <FaInstagram />, link: "https://www.instagram.com/chakri/" },
   { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/chakri-thotakura-321b87277/" },
 ];
@@ -39,18 +39,15 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Sidebar for medium+ screens and mobile toggle */}
+      {/* Sidebar */}
       <div
         className={`fixed top-0 h-full w-[260px] bg-gradient-to-b from-black to-gray-900 p-6 text-white shadow-xl z-40 transition-transform duration-300 ease-in-out
-        ${isOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 md:right-0 md:rounded-tl-3xl md:rounded-bl-3xl`}
+        ${isOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 md:left-0 md:rounded-tr-3xl md:rounded-br-3xl`}
       >
-        {/* Logo */}
         <div>
           <h1 className="text-xl font-bold text-white mb-8">
             <span className="text-blue-500">&lt;</span> CHAKRI <span className="text-blue-500">/&gt;</span>
           </h1>
-
-          {/* Nav Links */}
           <ul className="space-y-4">
             {navItems.map(({ name, path, icon }) => (
               <li key={name}>
@@ -61,7 +58,7 @@ const Navbar = () => {
                       ? "bg-blue-500 text-white"
                       : "hover:bg-white/10 text-slate-300"
                   }`}
-                  onClick={() => setIsOpen(false)} // close on click (mobile)
+                  onClick={() => setIsOpen(false)}
                 >
                   <span className="text-blue-400 text-lg">{icon}</span>
                   <span className="text-sm font-semibold">{name.toUpperCase()}</span>
