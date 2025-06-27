@@ -1,6 +1,18 @@
 
 const experiences = [
   {
+    role:"Tech-Lead Intern",
+    company:"Viswam.AI (joint initiative by Swecha & IIITH)",
+    duration: "May 2025 – July 2025",
+    bullets: [
+      "Led development of AI pipelines using Python, Natural Language Processing (NLP), and Transformer architectures",
+      "Guided and participated in training and fine-tuning state-of-the-art AI models.",
+      "Worked on dataset curation, annotation, and evaluation for low-resource Indic languages.",
+      "Collaborated with peers to design community-centric AI solutions supporting linguistic diversity.",
+      "Contributed to the deployment of scalable AI systems aimed at creating real-world societal impact."
+    ]
+  },
+  {
   role: "Azure AI-900 Intern",
   company: "EtrainIndia",
   duration: "June 2024 – Aug 2024",
@@ -24,18 +36,7 @@ const experiences = [
     "Collaborated with cross-functional teams in an Agile environment to gather requirements, perform code reviews, and deliver production-ready features."
   ]
   },
-  {
-    role:"Tech-Lead Intern",
-    company:"Viswam.AI (joint initiative by Swecha & IIITH)",
-    duration: "May 2025 – July 2025",
-    bullets: [
-      "Led development of AI pipelines using Python, Natural Language Processing (NLP), and Transformer architectures",
-      "Guided and participated in training and fine-tuning state-of-the-art AI models.",
-      "Worked on dataset curation, annotation, and evaluation for low-resource Indic languages.",
-      "Collaborated with peers to design community-centric AI solutions supporting linguistic diversity.",
-      "Contributed to the deployment of scalable AI systems aimed at creating real-world societal impact."
-    ]
-  }
+  
 ];
 
 const Experience = () => {

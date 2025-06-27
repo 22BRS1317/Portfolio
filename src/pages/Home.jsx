@@ -101,7 +101,7 @@ const Home = () => {
             onClick={changeTheme}
             className="flex items-center gap-2 px-6 py-2 rounded-full border border-blue-500 text-blue-300 hover:bg-blue-600 hover:text-white transition"
           >
-            <FaPaintBrush /> Click here to new look
+            <FaPaintBrush /> Click here to get a new look
           </button>
         </div>
       </div>

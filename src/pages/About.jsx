@@ -15,7 +15,7 @@ const education = [
     place: "VIT Chennai",
     period: "2022 – 2026",
     logo: `${process.env.PUBLIC_URL}/logos/vit.png`,
-    desc: "Specialized in AI & Robotics with a CGPA of 8.86/10.",
+    desc: "Specialized in AI & Robotics with a CGPA of 8.9  /10.",
   },
   {
     title: "Intermediate - MPC",
