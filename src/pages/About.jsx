@@ -31,7 +31,7 @@ const education = [
     logo: `${process.env.PUBLIC_URL}/logos/tjk.png`,
     desc: "Scored 10/10 CGPA in SSC",
   }
-];
+]; 
 
 // Experience cards
 const experience = [
