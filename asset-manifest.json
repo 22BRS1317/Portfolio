@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ac023c77.css",
-    "main.js": "/Portfolio/static/js/main.a8f1ac8b.js",
+    "main.js": "/Portfolio/static/js/main.7f90e64e.js",
     "static/media/Chakri_Resume.pdf": "/Portfolio/static/media/Chakri_Resume.beb0268d6d093b171bea.pdf",
     "index.html": "/Portfolio/index.html",
     "main.ac023c77.css.map": "/Portfolio/static/css/main.ac023c77.css.map",
-    "main.a8f1ac8b.js.map": "/Portfolio/static/js/main.a8f1ac8b.js.map"
+    "main.7f90e64e.js.map": "/Portfolio/static/js/main.7f90e64e.js.map"
   },
   "entrypoints": [
     "static/css/main.ac023c77.css",
-    "static/js/main.a8f1ac8b.js"
+    "static/js/main.7f90e64e.js"
   ]
 }
