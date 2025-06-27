@@ -19,14 +19,14 @@ const education = [
   },
   {
     title: "Intermediate - MPC",
-    place: "Tirulama Junior Kalsala",
+    place: "Tirumala Junior Kalsala",
     period: "2020 - 2022",
     logo: `${process.env.PUBLIC_URL}/logos/tjk.png`,
     desc: "Scored 83.6% in MPC"
   },
   {
     title: "SSC - Secondary School Certificate",
-    place: "Tirulama EM High School",
+    place: "Tirumala EM High School",
     period: "2019 - 2020",
     logo: `${process.env.PUBLIC_URL}/logos/tjk.png`,
     desc: "Scored 10/10 CGPA in SSC",
@@ -98,7 +98,7 @@ const About = () => {
               <p><strong>Age:</strong> 20</p>
               <p><strong>Gender:</strong> Male</p>
               <p><strong>Languages:</strong> English, Telugu</p>
-              <p><strong>DOB:</strong> July 11, 2025</p>
+              <p><strong>DOB:</strong> July 11, 2005</p>
               <p><strong>Work:</strong> Student</p>
               <p><strong>Email:</strong> chakri.thotakura2022@vitstudent.ac.in</p>
               <p><strong>Instagram:</strong> <a href="https://instagram.com/___chakri___" target="_blank" className="text-blue-300 hover:underline">@___chakri___</a></p>
