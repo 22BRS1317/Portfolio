@@ -67,6 +67,16 @@ const achievements = [
     image: `${process.env.PUBLIC_URL}/certs/technical-treasure-hunt.jpg`,
     issuer: "SCOPE - VIT Chennai",
   },
+  {
+    title: "Verizon Cloud Platform Job Simulation on Forage",
+    image: `${process.env.PUBLIC_URL}/certs/verizon_forage.png`,
+    issuer: "Forage",
+  },
+  {
+    title: "AWS APAC Solutions Architecture virtual experience program on Forage",
+    image: `${process.env.PUBLIC_URL}/certs/aws_forage.png`,
+    issuer: "Forage",
+  }
 ];
 
 const Achievements = () => {
