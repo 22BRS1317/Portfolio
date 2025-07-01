@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
   FaHome, FaUser, FaAward, FaProjectDiagram,
-  FaCode, FaChartLine, FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaBars, FaTimes,
+  FaCode, FaChartLine, FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaBars, FaTimes,FaPhone,FaFileAlt
 } from "react-icons/fa";
 
 const navItems = [
@@ -11,16 +11,17 @@ const navItems = [
   { name: "Achievements", path: "/achievements", icon: <FaAward /> },
   { name: "Projects", path: "/projects", icon: <FaProjectDiagram /> },
   { name: "Tech Stack", path: "/skills", icon: <FaCode /> },
-  { name: "Resume", path: "/resume", icon: <FaEnvelope /> },
+  { name: "Resume", path: "/resume", icon: <FaFileAlt /> },
   { name: "Experience", path: "/experience", icon: <FaChartLine /> },
-  { name: "Contact", path: "/contact", icon: <FaEnvelope /> },
+  { name: "Contact", path: "/contact", icon: <FaPhone /> },
 ];
 
 const socialIcons = [
+  { icon: <FaEnvelope />, link: "mailto:chakri.thotakura2022@vitstudent.ac.in" },
   { icon: <FaFacebook />, link: "https://www.facebook.com/profile.php?id=100072242708076" },
   { icon: <FaGithub />, link: "https://github.com/22BRS1317" },
-  { icon: <FaInstagram />, link: "https://www.instagram.com/chakri/" },
-  { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/chakri-thotakura-321b87277/" },
+  { icon: <FaInstagram />, link: "https://www.instagram.com/___chakri___/" },
+  { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/chakri-thotakura-321b87277/" }  
 ];
 
 const Navbar = () => {

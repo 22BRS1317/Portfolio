@@ -13,23 +13,23 @@ const education = [
   {
     title: "B.Tech - Computer Science & Engineering",
     place: "VIT Chennai",
-    period: "2022 – 2026",
+    period: "2022 – Present",
     logo: `${process.env.PUBLIC_URL}/logos/vit.png`,
     desc: "Specialized in AI & Robotics with a CGPA of 8.9  /10.",
   },
   {
-    title: "Intermediate - MPC",
-    place: "Tirumala Junior Kalsala",
+    title: "Higher Secondary Education - Science (MPC)",
+    place: "Tirumala Junior Kalasala",
     period: "2020 - 2022",
     logo: `${process.env.PUBLIC_URL}/logos/tjk.png`,
-    desc: "Scored 83.6% in MPC"
+    desc: "Percentage - 83.6%"
   },
   {
-    title: "SSC - Secondary School Certificate",
+    title: "State Board(X)",
     place: "Tirumala EM High School",
     period: "2019 - 2020",
     logo: `${process.env.PUBLIC_URL}/logos/tjk.png`,
-    desc: "Scored 10/10 CGPA in SSC",
+    desc: "CGPA - 10",
   }
 ]; 
 
@@ -44,7 +44,7 @@ const experience = [
     desc: "Part of Free Software Movement of India",
   },
   {
-    title: "AI-900 Intern",
+    title: "AI-900",
     role: "Intern",
     place: "Microsoft Azure – EtrainIndia",
     period: "June 2024 – Aug 2024",
@@ -52,7 +52,7 @@ const experience = [
     desc: "Worked on intelligent solutions and Azure fundamentals.",
   },
   {
-    title: "MERN Stack Intern",
+    title: "MERN Stack",
     role: "Intern",
     place: "Ethnus",
     period: "June 2024 - July 2024",
@@ -100,8 +100,6 @@ const About = () => {
               <p><strong>Languages:</strong> English, Telugu</p>
               <p><strong>DOB:</strong> July 11, 2005</p>
               <p><strong>Work:</strong> Student</p>
-              <p><strong>Email:</strong> chakri.thotakura2022@vitstudent.ac.in</p>
-              <p><strong>Instagram:</strong> <a href="https://instagram.com/___chakri___" target="_blank" className="text-blue-300 hover:underline">@___chakri___</a></p>
               <p><strong>Country:</strong> India</p>
             </div>
           </div>
@@ -115,25 +113,35 @@ const About = () => {
           transition={{ delay: 0.2 }}
         >
           <h3 className="text-xl font-semibold text-blue-400 mb-4 text-center">Bio</h3>
-          <p>
-            I'm <span className="text-blue-300 font-semibold">Chakri Thotakura</span>, a Computer Science student at <strong>VIT Chennai</strong>, specializing in <strong>Artificial Intelligence and Robotics</strong>, with a <strong>CGPA of 8.9/10</strong>.
-          </p>
-          <br />
-          <p>
-            Passionate about building intelligent systems, I focus on AI, Robotics, and Full Stack Development, always eager to explore new technologies and approaches.
-          </p>
-          <br />
-          <p>
-            I've engineered drone simulations (ROS, Gazebo), smart IoT lockers with real-time alerts, AI-powered chatbots, and scalable full-stack web platforms (MERN).
-          </p>
-          <br />
-          <p>
-            My technical stack includes Java, Python, C/C++, JavaScript, React, Node.js, MongoDB, TensorFlow, PyTorch, ROS, and IoT systems.
-          </p>
-          <br />
-          <p>
-            I thrive on solving real-world problems—whether it's healthcare AI, distributed computing, or smart automation—and I enjoy collaborating in agile teams to deliver impactful solutions.
-          </p>
+
+<p>
+  I’m <span className="text-blue-300 font-semibold">Chakri Thotakura</span>, a Computer Science student at <strong>VIT Chennai</strong>, specializing in <strong>Artificial Intelligence and Robotics</strong> with a <strong>CGPA of 8.9/10</strong>.
+</p>
+
+<br />
+
+<p>
+  Passionate about building intelligent and impactful systems, I focus on areas like <strong>AI</strong>, <strong>Robotics</strong>, and <strong>Full Stack Development</strong>. I'm always eager to explore new technologies and push boundaries through innovation.
+</p>
+
+<br />
+
+<p>
+  My experience spans across autonomous drone simulations using <strong>ROS</strong> and <strong>Gazebo</strong>, smart <strong>IoT-enabled lockers</strong> with real-time Telegram alerts, AI-powered <strong>chatbots</strong>, and scalable <strong>MERN stack web applications</strong>.
+</p>
+
+<br />
+
+<p>
+  My technical stack includes <strong>Java</strong>, <strong>Python</strong>, <strong>C/C++</strong>, <strong>JavaScript</strong>, <strong>React</strong>, <strong>Node.js</strong>, <strong>MongoDB</strong>, <strong>TensorFlow</strong>, <strong>PyTorch</strong>, <strong>ROS</strong>, and various <strong>IoT systems</strong>.
+</p>
+
+<br />
+
+<p>
+  I thrive on solving real-world challenges—whether it's in <strong>healthcare AI</strong>, <strong>distributed computing</strong>, or <strong>smart automation</strong>. I enjoy working in agile teams and believe in delivering solutions that create meaningful impact.
+</p>
+
         </motion.div>
       </div>
 
